@@ -1,0 +1,11 @@
+front:
+  image: humantalks/front
+  ports:
+    - 8081:8081
+ 
+echo:
+  image: humantalks/echo
+  links: 
+    - front
+  expose:
+    - 8080
