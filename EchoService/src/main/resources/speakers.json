@@ -1,0 +1,177 @@
+[
+  {
+    "firstName": "Cédric",
+    "lastName": "Vanet",
+    "pictureURL": "http://gravatar.com/avatar/1c18d112221c221c6af61a89efede1b0?default=identicon&size=150",
+    "title": "Speed Up SF2 dev using Docker",
+    "date": "12/05/2015"
+  },
+  {
+    "firstName": "Jean",
+    "lastName": "Helou",
+    "pictureURL": "http://gravatar.com/avatar/75da740d43c5780539214f24ce1148a6?default=identicon&size=150",
+    "title": "Craftsmanship: the real thing",
+    "date": "12/05/2015"
+  },
+  {
+    "firstName": "Nicolas",
+    "lastName": "Demengel",
+    "pictureURL": "http://gravatar.com/avatar/c0792480bf7dc22da53481b0d16e7907?default=identicon&size=150",
+    "title": "Les tests de non-reg du pauvre",
+    "date": "12/05/2015"
+  },
+  {
+    "firstName": "Maxime",
+    "lastName": "Gaudin",
+    "pictureURL": "http://gravatar.com/avatar/dfb8e3aa80580388e185f550f80aff6e?default=identicon&size=150",
+    "title": "Implémentation d'une architecture microservices : Partie 1",
+    "date": "12/05/2015"
+  },
+  {
+    "firstName": "Jonathan",
+    "lastName": "Dray",
+    "pictureURL": "http://gravatar.com/avatar/57159da377351ee6a1fe19326cf9132a?default=identicon&size=150",
+    "title": "",
+    "date": "12/05/2015"
+  },
+  {
+    "firstName": "Thomas",
+    "lastName": "Mortagne",
+    "pictureURL": "http://gravatar.com/avatar/0395583e63156c9ca2d1d9c5329b79a2?default=identicon&size=150",
+    "title": "Vivre d'un projet Open Source, XWiki SAS",
+    "date": "14/04/2015"
+  },
+  {
+    "firstName": "Florent",
+    "lastName": "Pellet",
+    "pictureURL": "http://gravatar.com/avatar/8f97f935f987a3d1252929bf6b32da1d?default=identicon&size=150",
+    "title": "Event Storming : décrire le métier autrement",
+    "date": "14/04/2015"
+  },
+  {
+    "firstName": "Matthieu",
+    "lastName": "Lecoupeau",
+    "pictureURL": "http://gravatar.com/avatar/6542757d30ee6b86cf6d7b9e6ec7dbcd?default=identicon&size=150",
+    "title": "Guide de survie en SSII / ESN",
+    "date": "14/04/2015"
+  },
+  {
+    "firstName": "Emilien",
+    "lastName": "Pecoul",
+    "pictureURL": "http://gravatar.com/avatar/a5b48ccaf6b8585aa709d65d59e7e8d3?default=identicon&size=150",
+    "title": "Why events matters",
+    "date": "14/04/2015"
+  },
+  {
+    "firstName": "Emilien",
+    "lastName": "Pecoul",
+    "pictureURL": "http://gravatar.com/avatar/a5b48ccaf6b8585aa709d65d59e7e8d3?default=identicon&size=150",
+    "title": "L'agile est en péril.",
+    "date": "10/03/2015"
+  },
+  {
+    "firstName": "Haïkel",
+    "lastName": "Guémar",
+    "pictureURL": "http://gravatar.com/avatar/dac54f0678e4b201858b19ef80204803?default=identicon&size=150",
+    "title": "Comment devenir un développeur avec d'excellentes habitudes comme Kent Beck",
+    "date": "10/03/2015"
+  },
+  {
+    "firstName": "Nastasia",
+    "lastName": "Saby",
+    "pictureURL": "http://gravatar.com/avatar/f1e09bf0b41e5559ff4623401378a1f8?default=identicon&size=150",
+    "title": "Sails",
+    "date": "10/03/2015"
+  },
+  {
+    "firstName": "Aliou",
+    "lastName": "Ka",
+    "pictureURL": "http://gravatar.com/avatar/2a9ccd62a05074f108af8a000493f692?default=identicon&size=150",
+    "title": "Java & Linux Monitoring Tools",
+    "date": "10/03/2015"
+  },
+  {
+    "firstName": "Thomas",
+    "lastName": "Cucchietti",
+    "pictureURL": "http://gravatar.com/avatar/7f511c88d8ac6c9c76478833a90591a1?default=identicon&size=150",
+    "title": "ElasticSearch : passez (à) l'agrégation",
+    "date": "10/03/2015"
+  },
+  {
+    "firstName": "Sylvain",
+    "lastName": "Charbert",
+    "pictureURL": "http://gravatar.com/avatar/409675b674a9ef6952453b2fa58e3d69?default=identicon&size=150",
+    "title": "Les NoSSII",
+    "date": "10/03/2015"
+  },
+  {
+    "firstName": "Charles",
+    "lastName": "Bouttaz",
+    "pictureURL": "http://gravatar.com/avatar/bd0f602050b2f95901199d3a3789eb56?default=identicon&size=150",
+    "title": "Docker, qu'est ce que ça change ?",
+    "date": "10/03/2015"
+  },
+  {
+    "firstName": "Stephen",
+    "lastName": "Kitt",
+    "pictureURL": "http://gravatar.com/avatar/a935dafe246dd0e2c216542f50073cbe?default=identicon&size=150",
+    "title": "Un paquet dans Debian en 400 seconds",
+    "date": "10/03/2015"
+  },
+  {
+    "firstName": "Pierre",
+    "lastName": "Laporte",
+    "pictureURL": "http://gravatar.com/avatar/4ffcb3b03cc8ba96c9f5513ab8a2b290?default=identicon&size=150",
+    "title": "La BDD, l'enfant gâté des SI",
+    "date": "10/03/2015"
+  },
+  {
+    "firstName": "Nicolas",
+    "lastName": "Babel",
+    "pictureURL": "http://gravatar.com/avatar/815189eb909f2a8bb586c30cd9c56ab8?default=identicon&size=150",
+    "title": "Latence applicative et API en streaming",
+    "date": "10/03/2015"
+  },
+  {
+    "firstName": "Benjamin",
+    "lastName": "Bouvier",
+    "pictureURL": "http://gravatar.com/avatar/7274f28edf4888fb107c3515f8712e7f?default=identicon&size=150",
+    "title": "Les micro-benchmarks, ou comment ne rien tester",
+    "date": "10/02/2015"
+  },
+  {
+    "firstName": "Matthieu",
+    "lastName": "Lecoupeau",
+    "pictureURL": "http://gravatar.com/avatar/6542757d30ee6b86cf6d7b9e6ec7dbcd?default=identicon&size=150",
+    "title": "Rendez service à vos doigts",
+    "date": "10/02/2015"
+  },
+  {
+    "firstName": "Hugo",
+    "lastName": "Lassiège",
+    "pictureURL": "http://gravatar.com/avatar/fd650fcdc1978fe9f47a6e8d3d987a1a?default=identicon&size=150",
+    "title": "Déployez votre application Spring-boot avec Ansible",
+    "date": "10/02/2015"
+  },
+  {
+    "firstName": "Matthieu",
+    "lastName": "Baechler",
+    "pictureURL": "http://gravatar.com/avatar/79a35df7be11595a12d1a02951072317?default=identicon&size=150",
+    "title": "Mettez du docker dans vos tests",
+    "date": "10/02/2015"
+  },
+  {
+    "firstName": "Haïkel",
+    "lastName": "Guémar",
+    "pictureURL": "http://gravatar.com/avatar/dac54f0678e4b201858b19ef80204803?default=identicon&size=150",
+    "title": "eXtrem Remoting",
+    "date": "10/02/2015"
+  },
+  {
+    "firstName": "Romain",
+    "lastName": "Dequidt",
+    "pictureURL": "http://gravatar.com/avatar/e1a5f4dc86afb82d2b047702a24efe09?default=identicon&size=150",
+    "title": "Présentation Fhacktory en début de session",
+    "date": "10/02/2015"
+  }
+]

@@ -18,9 +18,4 @@ public class EchoServiceApplication {
     public static void main(String[] args) {
         SpringApplication.run(EchoServiceApplication.class, args);
     }
-
-    @RequestMapping(value = "/")
-    public String echo(@RequestBody String input, HttpServletRequest request) throws UnknownHostException {
-        return String.format("%s (from %s)", input, InetAddress.getLocalHost().getHostAddress());
-    }
 }
