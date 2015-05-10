@@ -26,7 +26,7 @@ Yes : `docker-compose scale echo=3` for 3 instances.
 
 ## The speaker service
 
-Because @jdray is speaker right after me, I added a dummy endpoint which send the list of every 2015 HT speaks.
+Because @jdray is speaking right after me, I added a dummy endpoint which send the list of every 2015 HT speaks.
 To request it, run the system and perform the following request : `GET http://localhost:8081/echo/speakers`
 
 For instance :
