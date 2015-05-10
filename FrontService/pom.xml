@@ -67,8 +67,6 @@
                 <version>0.2.6</version>
                 <configuration>
                     <imageName>humantalks/${project.artifactId}</imageName>
-                    <baseImage>java:8</baseImage>
-                    <entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint>
                     <dockerDirectory>${project.build.sourceDirectory}/../docker</dockerDirectory>
                     <resources>
                         <resource>

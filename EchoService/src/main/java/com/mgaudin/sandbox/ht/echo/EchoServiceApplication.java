@@ -6,7 +6,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.web.bind.annotation.RestController;
 
 @EnableDiscoveryClient
-@RestController
 @SpringBootApplication
 public class EchoServiceApplication {
     public static void main(String[] args) {
