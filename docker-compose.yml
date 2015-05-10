@@ -9,3 +9,12 @@ echo:
     - front
   expose:
     - 8080
+
+echoSlow:
+  image: humantalks/echo
+  links: 
+    - front
+  environment:
+    - latency.artificial.wait=800
+  expose:
+    - 8080

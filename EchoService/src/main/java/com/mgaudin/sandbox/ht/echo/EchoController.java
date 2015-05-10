@@ -1,33 +1,23 @@
 package com.mgaudin.sandbox.ht.echo;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
 @RestController
+@RequestMapping("/")
 public class EchoController {
-    private final Long artificialWait;
-
-    @Autowired
-    public EchoController(
-            @Value("${latency.artificial.wait}") Long artificialWait) {
-        this.artificialWait = artificialWait;
+    @RequestMapping(method = RequestMethod.POST)
+    public String echo(@RequestBody(required = false) String input) throws UnknownHostException {
+        return String.format("%s (from %s)", input == null ? "" : input, InetAddress.getLocalHost().getHostAddress());
     }
 
-
-    @RequestMapping(value = "/")
-    public String echo(@RequestBody(required = false) String input) throws UnknownHostException, InterruptedException {
-        Thread.sleep(artificialWait);
-
-        if (input == null) {
-            return InetAddress.getLocalHost().getHostAddress();
-        }
-
-        return String.format("%s (from %s)", input, InetAddress.getLocalHost().getHostAddress());
+    @RequestMapping(method = RequestMethod.GET, produces = "application/json")
+    public String getIP() throws UnknownHostException {
+        return String.format("{ \"ip\": \"%s\" }", InetAddress.getLocalHost().getHostAddress());
     }
 }
