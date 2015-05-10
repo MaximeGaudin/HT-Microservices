@@ -21,8 +21,13 @@ public class EchoController {
 
 
     @RequestMapping(value = "/")
-    public String echo(@RequestBody String input) throws UnknownHostException, InterruptedException {
+    public String echo(@RequestBody(required = false) String input) throws UnknownHostException, InterruptedException {
         Thread.sleep(artificialWait);
+
+        if (input == null) {
+            return InetAddress.getLocalHost().getHostAddress();
+        }
+
         return String.format("%s (from %s)", input, InetAddress.getLocalHost().getHostAddress());
     }
 }
